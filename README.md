@@ -3,7 +3,7 @@
 A treasure-hunting game built with Base44!  
 Grab your metal detector, hit the sandy beach, and uncover hidden loot as you level up, upgrade your gear, and chase massive combos!
 
-<br><br>
+<br>
 ## 🎮 Gameplay Overview
 
 You begin with a basic metal detector and a stretch of beach sand.
@@ -16,7 +16,7 @@ Every dig can uncover:
 
 As you scan and dig, you build combo chains, earn coins, and unlock levels, zones, and gear upgrades.
 
-<br><br>
+<br>
 ## 🛠️ Tech Stack
 
 * React 
@@ -29,7 +29,7 @@ As you scan and dig, you build combo chains, earn coins, and unlock levels, zone
 * Unlockable tools beyond metal detectors
 * Rare mythic items
 
-<br><br>
+<br>
 ## Screenshots
 
 #### Home
@@ -48,7 +48,7 @@ As you scan and dig, you build combo chains, earn coins, and unlock levels, zone
 
 <img src='./src/images/screenshot_4.png' width='700'/>
 
-<br><br>
+<br>
 ## 💻 Installation
 
     git clone https://github.com/alfinaim/Treasure-Hunt.git
