@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Navigate, Route, Routes } from 'react-router-dom';
 import App from './App';
 import Layout from './pages/Layout';
 import Beach from './pages/Beach';
@@ -11,15 +11,16 @@ import Museum from './pages/Museum';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
+          {/* Redirect from "/" to "/learn" */}
           <Route index element={<Navigate to="beach" replace />} />
           <Route path="beach" element={<Beach />} />
           <Route path="museum" element={<Museum />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
