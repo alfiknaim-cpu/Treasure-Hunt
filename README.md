@@ -2,6 +2,8 @@
 
 A treasure-hunting game built with Base44!  
 Grab your metal detector, hit the sandy beach, and uncover hidden loot as you level up, upgrade your gear, and chase massive combos!
+
+[Github Pages Link](https://alfinaim.github.io/Treasure-Hunt//#/beach)
 <br><br>
 
 ## 🎮 Gameplay Overview
